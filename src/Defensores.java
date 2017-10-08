@@ -2,6 +2,10 @@ public class Defensores extends Jugadores {
 
 	private int shields;
 	private int saludExtra;
+	
+	public Defensores(){
+		super();
+	}
 
 	public void defenderAliados() {
 		// TODO - implement Defensores.defenderAliados

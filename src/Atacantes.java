@@ -5,6 +5,10 @@ public class Atacantes extends Jugadores {
 	 * Que tanto baja la presicion al disparar continuamente
 	 */
 	private double aimSpread;
+	
+	public Atacantes(){
+		super();
+	}
 
 	public void atacarEnemigos() {
 		// TODO - implement Atacantes.atacarEnemigos

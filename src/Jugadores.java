@@ -1,11 +1,38 @@
-public class Jugadores extends Equipos {
+import java.io.Serializable;
+
+public class Jugadores extends Equipos implements Serializable {
 
 	/**
 	 * Habilidad especial de cada jugador
 	 */
 	private String HabSpecial;
-	private int Salud;
-	private int x,y,height,weight;
+	protected int Salud;
+	protected int x,y,height,weight;
+	protected int speed;
+	
+	public Jugadores(){
+		x = 100;
+		y = 100;
+		height = 150;
+		weight = 150;
+	}
+	
+	public int getSalud() {
+		return Salud;
+	}
+
+	public void setSalud(int salud) {
+		Salud = salud;
+	}
+
+	public int getSpeed() {
+		return speed;
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
 
 	public int getX() {
 		return x;

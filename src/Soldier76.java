@@ -1,7 +1,12 @@
 public class Soldier76 extends Atacantes {
 
 	private float rocketsDamage;
-	private int speed;
+	
+	public Soldier76(){
+		super();
+		setSpeed(10);
+		setSalud(250);
+	}
 
 	public void bioticField() {
 		// TODO - implement Soldier76.bioticField

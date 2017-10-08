@@ -3,6 +3,11 @@ public class Curadores extends Jugadores {
 	private String supportType;
 	private String healingType;
 
+	
+	public Curadores(){
+		super();
+		
+	}
 	public void curarAliados() {
 		// TODO - implement Curadores.curarAliados
 		throw new UnsupportedOperationException();
